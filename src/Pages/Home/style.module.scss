@@ -1,0 +1,18 @@
+.home {
+    text-align: center;
+  .itemHeader {
+    span{
+        &:nth-child(1n){
+            float: left;
+        }
+        &:nth-child(2n) {
+            float: left;
+          }
+        &:nth-child(3n){
+            float: right;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+  }
+}
